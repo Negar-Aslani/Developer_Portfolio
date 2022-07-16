@@ -1,0 +1,148 @@
+:root {
+--white: #fff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px */ 
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color:#0a0a0b;
+    color: #adadad;
+    
+}
+
+-- Reset Style --
+
+*/
+
+a{
+    color: var(--white);
+}
+
+a:hover {
+    color: var(--white);
+}
+
+a:visited {
+    color: var(--white);
+}
+
+
+/*
+
+-- Helper Class --
+
+*/
+
+/*
+
+-- App Style --
+
+*/
+
+h1, h2, .name {
+    font-family: 'Prata', serif;
+    color: var(--white);
+    text-decoration-line: none;
+}
+
+.name {
+    display: block;
+    height: 3rem;
+    width: 19rem;
+}
+.name__link{
+    font-size: 1.7rem;
+    text-decoration: none;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+
+}
+
+.container {
+fo
+}
+
+.nav {
+
+}
+
+.menu {
+display: none;
+}
+
+.menu__items {
+
+}
+
+.menu__link {
+
+}
+
+.nav-menu {
+display: none;
+}
+
+.mobile-menu {
+display: flex;
+width: 8rem;
+height: 2rem;
+
+}
+
+.mobile-menu__items {
+
+}
+
+.mobile-menu__link {
+
+}
+
+.header__buttom {
+    height: 3rem ;
+    width: 6rem;
+   
+}
+
+.header__link {
+    display: none;
+text-decoration: none;
+font-family: 'Prata', serif;
+margin: auto;
+background-color: darkorange;
+padding: 1rem;
+margin: ;
+color: #0a0a0b;
+}
+
+.nav__btn {
+   background-color: #0a0a0b;
+   display: flex;
+   justify-content: center;
+    align-items: center;
+}
+
+.nav__btn-line {
+display: block;
+background-color: var(--white);
+height: 0.3rem;
+width: 2rem;
+position: relative;
+}
+
+.nav__btn-line::after,
+.nav__btn-line::before {
+position: absolute;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
     <head>
         <meta title="author" content="Negar Aslani">
         <meta charset="UTF-8">
@@ -11,15 +11,22 @@
           <link rel="stylesheet" href="/Styles/grid.css" type="text/css">
           <link rel="stylesheet" href="/Styles/app.css" type="text/css">
           <link rel="stylesheet" href="/Styles/Responsive.css" type="text/css">
+
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Prata&display=swap" rel="stylesheet">
           
         <title>Web Developer Portfolio</title>
     </head>
 
     <body>
-        <header>
-            <div>
+        <header class="header">
+            <div class="container">
                 <nav class="nav">
-                    <div><a href="#">Johnathan Specter</a></div>
+                    <div class="name">
+                        <a href="#" class="name__link">Johnathan Specter</a>
+                    </div>
+
                     <ul class="menu">
                         <li class="menu__items">
                             <a class="menu__link">Articles</a>
@@ -37,6 +44,7 @@
                             <a class="menu__link">About</a>
                         </li>
                     </ul>
+
                     <div class="nav-menu">
                         <ul class="mobile-menu">
                             <li class="mobile-menu__items">
@@ -56,10 +64,13 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="nav__btn">
-                        <span class="nav__btn-line">Get in touch</span>
+
+                    <div class="header__button">
+                        <a href="#" class="header__link">Get in touch</a>
                     </div>
-                    s
+
+                    <div class="nav__btn">
+                        <span class="nav__btn-line"></span>
                     </div>
 
                 </nav>
