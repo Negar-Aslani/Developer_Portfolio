@@ -94,7 +94,9 @@ display: none;
 }
 
 .menu__items {
-
+    padding-left: 2rem;
+    margin-top: 0.4rem;
+    
 }
 
 .menu__link {
@@ -137,21 +139,41 @@ display: flex;
 }
 
 .header__buttom {
-    height: 3rem ;
-    width: 6rem;
-    padding-top: 2rem; 
+   
+    padding-top: 2rem;
+    
 }
 
 .header__link {
-text-decoration: none;
-font-family: 'Prata', serif;
-background-color: darkorange;
-padding: 1rem;
-color: #0a0a0b;
-display: block;
-flex-grow: 1;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    background-color: darkorange;
+    color: #0a0a0b;
+    flex-grow: 1;
     text-align: center;
+    padding: 1rem 0;
     margin-top: 17rem;
+    display: block;
+}
+
+.header__link-desktop-div {
+float: right;
+width: 100%;
+}
+
+.header__link-desktop {
+    text-decoration: none;
+    font-family: 'Prata', serif;
+    background-color: rgb(255, 238, 82);
+    color: #0a0a0a;
+    float: right;
+    width: 10rem;
+    height: 3.2rem;
+    text-align: center;
+    padding: 1rem 0;
     
 }
 
@@ -211,7 +233,6 @@ transition: all 200ms ease-in-out;
 h1 { 
     font-size: 3rem;
     max-width: 40rem;
-    padding: 0.5rem;
     line-height: 4rem;
 }
 
@@ -226,8 +247,15 @@ h1 {
 .logos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .logo{
-    
+    margin: 5rem auto;
+    min-width: 4rem;
+    height: 1.5rem;
+}
+
+.logo1 {
+   
 }
